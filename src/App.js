@@ -9,6 +9,17 @@ function App() {
     <div className="App">
       <HeaderBar />
       <Main />
+      <div
+        style={{
+          textAlign: "center",
+          margin: "2em 0",
+          fontSize: "2em",
+        }}
+      >
+        <a href="#howitworks" style={{ textDecoration: "none" }}>
+          👇🏾
+        </a>
+      </div>
       <Howitworks />
       <Footer />
     </div>

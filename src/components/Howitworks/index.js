@@ -3,7 +3,7 @@ import Card from "../Howitworks/cards";
 
 export default function index() {
   return (
-    <div className="howitworks">
+    <div id="howitworks">
       <h2>How it Works</h2>
       <div className="cardsbox">
         <Card
